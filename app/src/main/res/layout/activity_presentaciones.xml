@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicosUI.PresentacionesActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/presentaciones1"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imssg"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/presentaciones2"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/presentaciones2"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textVsiew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ejemplosprac"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textViews3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/escuchar"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textVssiew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/familia3"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_presen1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/img12"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:text="nayax sutinhaxa luisathwa"
+                    android:textAlignment="center"
+                    android:scaleType="fitCenter"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_presen2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/img1t2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    tools:ignore="MissingConstraints"
+                    android:textAlignment="center"
+                    android:text="naya tunka phisqani maranitwa"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewsar3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hablar"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/textew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/familia4"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_pres1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/micro"
+                    tools:ignore="MissingConstraints" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/califica_aud_pres1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text=""/>
+
+                <TextView
+                    android:id="@+id/tnnas54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="nayan sutinhaxa - mi nombres es..."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_pres2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/micro"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/califica_aud_pres2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text=""/>
+
+                <TextView
+                    android:id="@+id/tnnssas54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="waräthwa - wara (nombre de la persona)"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tsd3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/escribir"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/tsdasd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/presentaciones3"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tggsd"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="yo soy juan"
+                    android:textAlignment="center"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <EditText
+                    android:id="@+id/califica_txt_pres1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tggsdss"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="tengo 10 años"
+                    android:textAlignment="center"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <EditText
+                    android:id="@+id/califica_txt_pres2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tggsdfasd"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="yo vengo del pueblo de eucaliptus"
+                    android:textAlignment="center"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <EditText
+                    android:id="@+id/califica_txt_pres3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/miselaneo1"
+                android:gravity="center"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/calificar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calificar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

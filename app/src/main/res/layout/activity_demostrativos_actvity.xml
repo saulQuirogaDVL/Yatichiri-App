@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterUI.DemostrativosActvity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/demostrativo1"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texnnass5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="aka pana"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img12"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo4"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVsd5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="uka pana"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img132"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo5"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textVssiew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/demostrativos2"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:background="#FBF2A0"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVss5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="khaya pananaka"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgss12"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo3"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textVsass5"
+                    android:layout_width="100dp"
+                    android:layout_height="70dp"
+                    android:text="khuri pananaka"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imgsssa12"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo6"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textVsiew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ejemplosprac"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FF9800"
+                android:textSize="36dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViews3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/escuchar"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FFC107"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_mssh"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imgss1"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo7"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_mh123"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img12123"
+                    android:layout_width="246dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo8"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewsar3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hablar"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FFC107"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textew3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/familia4"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:background="#FBF2A0"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_anu3a"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/micro"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img8a"
+                    android:layout_width="236dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo9"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_anu3123a"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/micro"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img8a123"
+                    android:layout_width="236dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo10"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tsd3a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/escribir"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FFC107"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tsdasd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/familia5"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:background="#FBF2A0"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img8aaa2"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo13"
+                    tools:ignore="MissingConstraints" />
+                <EditText
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:background="@drawable/editor_texto"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img8aaaqwe2"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo12"
+                    tools:ignore="MissingConstraints" />
+                <EditText
+                    android:id="@+id/tqweextView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:background="@drawable/editor_texto"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img8asdaaa2"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/demostrativo11"
+                    tools:ignore="MissingConstraints" />
+                <EditText
+                    android:id="@+id/textViewasd36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:background="@drawable/editor_texto"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

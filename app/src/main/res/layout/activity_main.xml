@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fonbla"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFA500"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_Intrucciones"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ind"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/btn_Manual"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/manual"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/btn_Usuario"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/usuario"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_Intro"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                app:srcCompat="@drawable/intro"
+                tools:ignore="MissingConstraints" />
+
+            <ImageButton
+                android:id="@+id/btn_Basico"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="45dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Intro"
+                app:srcCompat="@drawable/bas"
+                tools:ignore="MissingConstraints" />
+
+            <ImageButton
+                android:id="@+id/btn_Intermedio"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="45dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Basico"
+                app:srcCompat="@drawable/inter"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">Yatichiri App</string>
+    <string name="text_register"><u>Registrarse</u></string>
+    <string name="instrucciones"><u>INDICE</u></string>
+    <string name="text_instruccion">
+        Bienvenidos a la aplicación “Yatichiri App”, que se dirige a todo público interesado en ampliar su aprendizaje sobre el idioma
+        aymara en el nivel básico e intermedio.\n\
+        El objetivo de la aplicación es enseñar lel idioma aymara, con una fundamentación lingüística,
+        pragmática y cultural, aprovechando los medios tecnológicos.\n\
+        En el desarrollo del curso, presentamos tres Niveles:
+    </string>
+    <string name="text_intro">
+        En Introduccion presentamos 3 unidades:\n\
+         &#160; &#160; &#160;- CONSONANTES Y VOCALES \n\
+         &#160; &#160; &#160;- FONOLOGÍA \n\
+         &#160; &#160; &#160;- GENERALIDADES
+    </string>
+
+    <string name="text_basico">
+        En el nivel Basico presentamos 20 unidades:\n\
+        &#160;<b>1)</b>Vocales\n\
+        &#160;<b>2)</b>Consonantes\n\
+        &#160;<b>3)</b> PRONOMRES PERSONALES\n\
+        &#160;<b>4)</b> CONJUGACION DE LOS VERBOS\n\
+        &#160;<b>5)</b> SALUDOS Y DESPEDIDAS\n\
+        &#160;<b>6)</b> NÚMEROS CARDINALES\n\
+       &#160; <b>7)</b> NÚMEROS ORDINALES\n\
+        &#160;<b>8)</b> LA FAMILIA\n\
+        &#160;<b>9)</b> PROFESIONES Y OCUPACIONES\n\
+        &#160;<b>10)</b> PRESENTACIONES\n\
+        &#160;<b>11)</b> TIEMPO\n\
+                &#160;&#160; &#160;  • Estaciones\n\
+                &#160; &#160; &#160; • Año\n\
+                &#160; &#160; &#160; • Mes\n\
+                &#160; &#160; &#160; • Dias\n\
+                &#160; &#160; &#160; • Horas\n\
+         &#160;<b>12)</b> LUGARES Y ARTIFICIALES\n\
+         &#160;<b>13)</b> ELEMENTOS DE LA NATURALEZA\n\
+                &#160; &#160; &#160; • Naturaleza\n\
+                &#160; &#160; &#160; • Agua\n\
+                &#160; &#160; &#160; • Tierra\n\
+                &#160; &#160; &#160; • Minerales\n\
+        &#160;<b>14)</b> FAUNA\n\
+                &#160; &#160; &#160; • Domestico\n\
+                &#160; &#160; &#160; • Silvestre\n\
+                &#160; &#160; &#160; • Peces\n\
+                &#160; &#160; &#160; • Pajaros\n\
+                &#160; &#160; &#160; • Insectos y Otros\n\
+         &#160;<b>15)</b> FLORA\n\
+                &#160; &#160; &#160; • Vegetales\n\
+                &#160; &#160; &#160; • Silvestre\n\
+                &#160; &#160; &#160; • Flores\n\
+                &#160; &#160; &#160; • Arbustos - Arboles\n\
+         &#160;<b>16)</b> LOS COLORES\n\
+         &#160;<b>17)</b> LOS ALIMENTOS\n\
+                &#160; &#160; &#160; • Animal\n\
+                &#160; &#160; &#160; • Vegetal\n\
+         &#160;<b>18)</b> EL CUERPO HUMANO\n\
+         &#160;<b>29)</b> ROPA\n\
+    </string>
+
+    <string name="text_intermedio">
+        En el nivel Intermedio presentamos 9 unidades:\n\
+         <b>1)</b> PRONOMBRES DEMOSTRATIVOS\n\
+         <b>2)</b> PRONOMBRES INTERROGATIVOS\n\
+         <b>3)</b> SUFIJOS \n\
+            	&#160; &#160; &#160; • Interrogacíon\n\
+                &#160; &#160; &#160; • Afirmación\n\
+                &#160; &#160; &#160; • Negación\n\
+                &#160; &#160; &#160; • Sufijo STI\n\
+        <b>4)</b> PALABRAS COMPUESTAS\n\
+         <b>5)</b> ADJETIVOS\n\
+         <b>6)</b> SUFIJOS POSESIVOS\n\
+                &#160; &#160; &#160;• Afirmativos\n\
+                &#160; &#160; &#160;• Interrogativos\n\
+        <b>7)</b> VERBOS INFINITIVOS\n\
+         <b>8)</b> DESINENCIAS O SUFIJOS VERBALES\n\
+         <b>9)</b> DIÁLOGOS\n\
+    </string>
+
+    <string name="menu">Menú</string>
+    <string name="basico">Básico</string>
+    <string name="intermedio">Intermedio</string>
+    <string name="his1">Los aimaras o Aymaras son un grupo étnico indígena de las regiones de los Andes y del altiplano
+        de América del Sur, son cerca de 2 millones de personas pertenecientes a esta étnia.\n\
+        La palabra aymara deriva de tres palabras compuestas:“jaya”, (lejano),“mara” (año), “aru”
+        (lenguaje), por lo que “jaya mara aru”, o simplemente “aymara”, significa “lenguaje de los antepasados”.</string>
+
+    <string name="vocal">El alfabeto aymara consta de 29 letras entre las cuales tenemos 3 vocales:</string>
+
+    <string name="vocal2"> Donde presentan variaciones (tipicas en la lengua aymara) que cambia su pronunciacion, significado
+        y escritura. En el caso de las vocales tenemos la Dieresis  que consta de colocar 2 puntos arriba de la vocal(ä)
+        que alarga la pronunciacion de las vocales donde tenemos ä=aa, ï=ii, ü=uu en el caso de las vocales esta variacion
+        no es incluida dentro del alfabeto como se veran con las consonantes. </string>
+    <string name="escuchar">Escuchar - ist"aña</string>
+    <string name="escuchar1">Pasemos a algunos ejemplos!
+escucha la pronunciacion de algunas palabras en aymara que llevan las vocales A I U  </string>
+    <string name="hablar">Hablar - arsuña </string>
+    <string name="hablar1">Es tu turno! repite las palabras que  veas! </string>
+    <string name="ejemplosprac">Ejemplos Practicos </string>
+    <string name="escribir">Escribir - qillqaña </string>
+    <string name="escribira">completa las palabras con la letra A:</string>
+    <string name="escribiri">completa las palabras con la letra i:</string>
+    <string name="ejemplov1">ejemplo: _k_ = aka (este)</string>
+    <string name="ejemplov2">ejemplo: _s_ = isi (ropa)</string>
+
+
+    <string name="consonante1">Como se menciono previamente el alfabeto ayamra consta de 29 letras en las cuales tenemos 26 consonantes:</string>
+    <string name="consonante2">a diferencia de las vocales tenemos que las variaciones de cada letra son tomadas como distintas dentro del alfabeto por lo tanto las siguientes consonantes del idioma español no estan incluidas:
+b,c,d,f,g,h,v,z
+    la pronunciaciones muy importante a la hora de aprender el aymara tenemos distintas maneras de decir una letra de acuerdo a la variacion uqe tiene y muchas letrasdel español son pronunciadas de manera distinta</string>
+    <string name="consonantes3">en la escritura aymara no existen las vocales e y o. Sin embargo cuando estan delante o detras de alguna de estas cuatro consonantes postverbales (Q,QH,Q",X) la "i  se la pronuncia como si fuera la vocal e mientras que la "u" pasa a sonar como la o.</string>
+    <string name="consonantes4">una palabra cambia totalmente su significado y pronunciación de acuerdo a la variante que esta tenga repasaremos algunos ejemplos: </string>
+    <string name="consonantes5">repita las palabras junto a los audios para poder tener una mejor pronunciacion</string>
+
+
+    <string name="pronombres">En el idioma aymara existen cuatro pronombres personales en singular y cuatro en plural.
+    Para formar los pronombres en plural, solamente hay que agregarle el sufijo –NAKA a los pronombres en singular. Ej: JUMA
+    (singular) JUMA+NAKA, con excepción de NAYA (yo) que solo se usara la 1° silaba
+    NA+NAKA</string>
+    <string name="pron1">Pasemos a algunos ejemplos!\n\
+        Escucha la pronunciacion de los pronombres en aymara</string>
+    <string name="pron2">Pasemos a algunos ejemplos!
+escucha la pronunciacion de los pronombres en aymara</string>
+
+    <string name="pron3">Completa los pronmobres</string>
+    <string name="pron4">Ejemplo: n_y_ = naya (yo)</string>
+
+    <string name="conjugacion1">con los pronombres personales que ya aprendimos podemos conjugar verdos de manera sencilla teniendo en cuenta las normas que se nos impone. </string>
+    <string name="conjugacion2">Explicacion
+primero para singular y plural: debemos colocar al pronombre una x  en la parte final
+nayax singular - nanakax plural 
+segundo para singular: el verbo que deseamos utilizar se encuentra al final de la oracion en el aymara, eliminamos la ultima silaba en aymara (aña, iñi, uñu) y le agregamos el sufijo de acuerdo asi esta en 1raP (ta), 2daP(i) y 3raP(tan)
+luraña=lurta
+segundo para plural:  son los mismos pasos que en singular con la diferncia que eliminamos lultima a silbara en español y le agregamos el sufijo de acuerdo asi esta en 1raP (pxta), 2daP(pxi) y 3raP(pxtan)
+luraña = lurapxta
+tercero para singular y plural: colocamos el complemete del verbo para dar sentido a la oracion y le quitamos la ultima vocal:
+t"ant"a = t"ant
+Conclusion:
+aplicacando las reglas vara conjugar un verbo optenemos
+en aymara: nayax t"ant  lurta
+en español: yo hago pan
+literal: yo pan hago </string>
+    <string name="conjugacion3">Explicacion
+primero para singular y plural: debemos colocar al pronombre una x  en la parte final
+nayax singular - nanakax plural
+segundo para singular: el verbo que deseamos utilizar se encuentra al final de la oracion en el aymara, eliminamos la ultima silaba en aymara (aña, iñi, uñu) y le agregamos el sufijo de acuerdo si es yo (ktti), tu(ktati), el/ella (kiti) y nosotros (ktanti)
+luraña=lurktti
+segundo para plural:  son los mismos pasos que en singular con la diferncia que eliminamos ultima a silbara en español y le agregamos la p antes del sufijo yo (pktti), tu(pktati), el/ella (pkiti) y nosotros (pktanti)
+luraña = lurapktti
+tercero para singular y plural: colocamos el complemete del verbo para dar sentido a la oracion y le quitamos la ultima vocal ademas de que para la negacion antes le colocamos el sufijo janiw:
+t"ant"a = janiw t"ant
+Conclusion:
+aplicacando las reglas vara conjugar un verbo optenemos
+en aymara: nayax janiw t'ant  lurktti
+en español: yo no he hecho pan
+literal: yo pan no he hecho</string>
+    <string name="conjugacion4">traduce la siguiente oracion:
+yo bebo agua
+beber= umaña
+agua= uma</string>
+    <string name="conjugacion5">traduce la siguiente oracion:
+yo no bebo agua
+beber= umaña
+agua= uma</string>
+    <string name="saludos1">La interacción entre las personas en cualquier
+contexto siempre comienza con el saludo. En la lengua aymara también se tienen una diversidad de
+saludos de acuerdo a las circunstancias.</string>
+    <string name="saludos2">Kunjamastansa =   ¿Cómo están?
+          Jumasti = ¿y usted?
+        Naya Walikistwa  =   Yo estoy bien
+        Naya Jani walikistwa  =   Yo no estoy bien
+        kawki markatätasa = ¿de que pueblo eres?
+        jikisiñkamaya = hasta luego
+    </string>
+    <string name="saludos3">Pasemos a algunos ejemplos!
+escucha la pronunciacion   </string>
+    <string name="saludos4">Es tu turno! repite las palabras que  veas!</string>
+    <string name="saludos5">responde a los saludos en aymara!</string>
+    <string name="saludos6">Waliki=bien -- aski urukipanaya = Buenos dias -- aski jayp"ukipanaya = Buenas tardes -- aski arumakipanaya = Buenas noches</string>
+    <string name="saludos8">aski jayp"ukipana = Buenas tardes</string>
+    <string name="saludos9">aski arumakipana = Buenas noches</string>
+    <string name="saludos10">aski jayp"ukipana = Buenos dias</string>
+    <string name="saludos11">para decir buenos dias, tardes o noches utlizamos el sufijo kipana delante de la palabra que representa
+    el tiempo en el que nos encontramos dia=uru -- tarde=jayp"u -- noches aruma
+    y para responder a este saludo utilizamos el sufijo kipanaya de la misma manera, antes de nombrar al tiempo colocamos el sufijo aski por lo que obtenemos:
+    aski tiempo(dia,tarde,noche) + kipana = Saludo
+    aski tiempo(dia,tarde,noche) + kipanaya = Respuesta
+    mas adelante en los temas aprendera la familia, profesiones, etc. las cuales podra combinar con los saludos
+    ej: aski urukipana kullaka(hermana)</string>
+    <string name="saludos12"></string>
+    <string name="familia1">En el aymara asi tambien como en gran parte de los idiomas, ya tenemos palabras propias para cada miembro de la familia</string>
+    <string name="familia2">Podemos mencionar algunos ejemplos con los saludos:\n\
+                            aski jayp"ukipana phuchha = Buenas tardes hija\n\aski jayp"ukipanaya awki = Buenas tardes papá </string>
+    <string name="familia3">Pasemos a algunos ejemplos!
+escucha la pronunciacion   </string>
+    <string name="familia4">Es tu turno! repite las palabras que  veas!</string>
+    <string name="familia5">Relaciona a la familia de acuerdo a la imagen y descripcion, llenando los campo en aymara</string>
+    <string name="familia6">Hermana -- bebe -- abuelo</string>
+
+    <string name="ocupacion1">De la mismas manera que en el tema de la familia el aymara tiene palabras propias para las profeciones u ocpuaciones</string>
+    <string name="ocupacion2">podemos mencionar algunos ejemplos con los saludos:
+                            aski urukipana qulliri = Buenos dias doctor/doctora
+                            aski urukipanaya yatichiri = Buenos dias profesor/profesora </string>
+    <string name="ocupacion3">Pasemos a algunos ejemplos!
+escucha la pronunciacion   </string>
+    <string name="ocupacion4">Es tu turno! repite las palabras que  veas!</string>
+    <string name="ocupacion5">Relaciona a las profeciones de acuerdo a la imagen y descripcion, llenando los campo en aymara</string>
+    <string name="ocupacion6">Cocinero -- minero -- jugador</string>
+    <string name="presentaciones1">ya sea en español o en cualquier idioma es importante conocer la manera correcta de como presentarse ante
+    una o mas personas y en el aymara no es la excepcion</string>
+    <string name="presentaciones2">podemos mencionar algunos ejemplos:
+    Nayan sutinhaxa (coloque su nombre) = mi nombre es...
+    Naya (coloque su edad) Maranitwa = yo tengo ... años
+    Naya (de donde viene) Markata purjta = yo vengo del pueblo de... </string>
+    <string name="presentaciones3">traduce las siguientes oraciones:</string>
+    <string name="artificiales1">algunas palabras sueltas como los lugares y los artificiales que vale la pena mencionar para formar algunas oraciones</string>
+    <string name="artificiales2">mina -- cerro -- casa</string>
+    <string name="cuerpo1">pasaremos a repasar las partes del cuerpo humano que cuentan con una palabra para cada una de ellas</string>
+    <string name="cuerpo2">Nueva Palabra! kuns sañss muni=se puede traducir como que significa o que dice!! -- coloca en el espacio
+        solo la palabra en aymara o en español</string>
+
+    <string name="num1">Las decenas se forman empezando por la cifra multiplicadora (que a menudo pierde su última vocal), y luego la
+        palabra para diez (tunca) separada por un espacio.\n\
+        Para escribir cifras mayores es necesario descomponer las cifras, y así poder escribir grandes cantidades. Ej.\n\
+        <b>43 = 4 tunka + 3</b>\n\
+        <b>43 = pusi tunka + kimsa</b>\n\
+        <b>43 = pusi tunka kimsani</b>\n\
+        El sufijo ni se usa cuando hay unidades, el resto sigue igual.</string>
+
+    <string name="num2">Escucha la pronunciacion de los numeros cardinales en aymara</string>
+    <string name="num3">Completa los numeros</string>
+
+    <string name="ord1">En el idioma aymara los numeros ordinales son similares al idioma castellano y llevan dos sufijos, el
+        verbalizador -y -ri habitual o tambien llamado normalizador </string>
+    <string name="ord2">Escucha la pronunciacion de los numeros ordinales en aymara</string>
+    <string name="ord3">Completa los numeros ordinales</string>
+
+    <string name="ropa1">Entre algunas prendas de vestir, no existe un nombre propio del castellano, solo se suelen usar en el idioma
+         aymara, como por ejemplo la Chuspa, Awayo entre otras prendas; que suelen ser refonemizadas.</string>
+    <string name="ropa2">Escucha la pronunciacion de las prendas de vestir</string>
+    <string name="ropa3">Completa las prendas de vestir</string>
+
+    <string name="color1">Al mencionar la palabra color(singular) en aymara es SAMI, y si queremos mencionar colores(plural) debemos
+        agregar el sufijo NAKA\n\
+        <b>SAMI(Color)</b>\n\
+    <b>SAMI + NAKA = SAMINAKA(Colores)\n</b></string>
+    <string name="color2">Escucha la pronunciacion de los colores en aymara</string>
+    <string name="color3">Completa los colores</string>
+
+    <string name="estacion1">Los aymaras tienen su propia división de tiempo relacionada al ecosistema y su actividad económica productiva.\n\
+
+     <b>1.</b>Estación Fría (otoño e invierno, Juyphi Pacha), ocupando la mitad del año entre marzo y septiembre, durante la cual madura la
+        producción agrícola y luego se le recolecta y se inicia la siembra.\n\
+     <b>2.</b>Estación Seca (primavera, AwtiPacha) entre septiembre y diciembre, dedicada a la siembra.“Awti” implica “hambre”: la tierra está
+        seca, hambrienta, porque no llueve.\n\
+     <b>3.</b>Estación de las Lluvias (verano, JalluPacha) entre diciembre y marzo, durante la cual crecen las plantaciones.\n</string>
+    <string name="estacion2">Escucha la pronunciacion de las estaciones</string>
+    <string name="estacion3">Completa las algunas estaciones</string>
+
+    <string name="natu1">La cosmovisión Aymara se basa en un profundo respeto por la naturaleza, el sostenedor de sus principales
+        actividades: la agricultura  y la ganadería . Toda su vida y concepción religiosa se orienta en torno a estos procesos.</string>
+    <string name="natu2">Escucha la pronunciacion de algunos elementos de la naturaleza</string>
+    <string name="natu3">Completa los elementos de la naturaleza</string>
+
+    <string name="domestico1">Veremos algunos animales considerados como animales domesticos.</string>
+    <string name="domestico2">Escucha la pronunciacion de algunos animales domesticos</string>
+    <string name="domestico3">Completa los animales domesticos</string>
+    <string name="demostrativo1">los pronombres demostrativos nos permiten distinguir y mostrar elementos que ta fueron mencionados previamente los cuales son clasificados por su distancia
+
+ Aka :  esto, esta, este. (el mas cercano)
+Uka :  eso, esa, ese (punto medio de cercania)
+ Khaya :  aquel, aquella, aquello.  (el mas lejano)
+khuri: de mas alla (se lo encuentra a la distancia, dificil de ver )</string>
+    <string name="demostrativos2">al igual que con los pronombres personales, si no queremos referir a dos o mas objetos, animales, personas, etc.
+utilizamos el sufijo naka.</string>
+    <string name="demostrativos3">escriba solo el sufijo en aymara (aka, uka, khaya) de acuerdo a la imagen</string>
+    <string name="interrogativos1">los pronombres interrogativos son utilizados para hacer preguntas sobre persona, objetos, la cual esta dirigida a algun referente: que cual donde que son algunos ejemplos en español
+¿Qué?                 =  ¿Kuna?
+  ¿Dónde?             =  ¿Kawki?
+¿Quién?              =  ¿Khithi?
+                          ¿Cuánto?            =  ¿Qawqha?
+¿Cómo?               =  ¿Kunjama?
+¿Cuándo?  =  ¿Kuna pacha? ¿Kunärsa?
+ ¿Cuál?       =  ¿Kawkïri? ¿Kawknïri?   </string>
+    <string name="interrogativo2">si queremos conjugar los interrogativos con alguna palabra colocamos primero el referente y luego el sujeto:
+kuna lurta</string>
+    <string name="sufijos1">ya aprendimos la conjugación  de los verbos ahora pasemos a la forma correcta de decirlo de manera interrogativa  </string>
+    <string name="sufijos2">Explicacion
+primero para singular : debemos colocar al pronombre una x  en la parte final
+nayax
+primero para plural: debemos colocar nakax en la parte final, en este caso nosotros recibe una modificacion especial donde se reemplaza su ultima silaba en ves de aumentarla como las demas
+ - nänakax
+- jumanakax
+segundo para singular: el verbo que deseamos utilizar se encuentra al final de la oracion en el aymara, eliminamos la ultima silaba en aymara (aña, iñi, uñu) y le agregamos el sufijo de acuerdo si es yo (tti), tu(tati), el/ella (iti) y nosotros (kanti)
+luraña=lurtti
+segundo para plural:  son los mismos pasos que en singular con la diferncia que eliminamos lultima a silbara en español y le agregamos el sufijo de acuerdo si es yo (apxtti), tu(apxtati), el/ella (apxiti) y nosotros (apxtanti)
+luraña = lurapxtti
+tercero para singular y plural: colocamos el complemete del verbo para dar sentido a la oracion y le quitamos la ultima vocal:
+t"ant"a = t"ant
+Conclusion:
+aplicacando las reglas vara conjugar un verbo optenemos
+en aymara: nayax t"ant  lurtti
+en español: yo hago pan?
+literal: yo pan hago ?</string>
+    <string name="sufijos3">Explicacion
+primero para singular : debemos colocar al pronombre una x  en la parte final
+nayax
+primero para plural: debemos colocar nakax en la parte final, en este caso nosotros recibe una modificacion especial donde se reemplaza su ultima silaba en ves de aumentarla como las demas
+ - nänakax
+- jumanakax
+segundo para singular: el verbo que deseamos utilizar se encuentra al final de la oracion en el aymara, eliminamos la ultima silaba en aymara (aña, iñi, uñu) y le agregamos el sufijo de acuerdo si esta en 1P(kta), 2P(ki) y 3P (ktan)
+luraña=lurkta
+segundo para plural:  son los mismos pasos que en singular con la diferncia que eliminamos lultima a silbara en español y le agregamos el sufijo de acuerdo si  esta en 1P(apkta), 2P(apki) y 3P (apktan)
+luraña = lurapkta
+tercero para singular y plural: colocamos el complemete del verbo para dar sentido a la oracion y le quitamos la ultima vocal ademas que para la negacion le colocamos antes el sufijo janit :
+t"ant"a = janit t"ant
+Conclusion:
+aplicando las reglas vara conjugar un verbo obtenemos
+en aymara: nayax janit t"ant  lurkta?
+en español: yo no hago pan?
+literal: yo pan no hago ?</string>
+    <string name="sufijos4">traduce la siguiente oracion:
+yo bebo agua ?
+beber= umaña
+agua= uma</string>
+    <string name="sufijos5">traduce la siguiente oracion:
+yo no bebo agua ?
+beber= umaña
+agua= uma</string>
+    <string name="posesivos1">los sufijos posesivos nos permiten definir la pertenencia de un algo a alguien, en el aymara tenemos sufijos que se colocan en el pronombre y el objeto perteneciente.</string>
+    <string name="posesivos2">Explicacion
+ya sea para plural o singular las reglas se aplican de la misma forma:
+primero: agregamos el sufijo (n) al pronombre :
+naya=nayan
+juma=juman
+segundo: colocamos el sufijo  de pertenencia en el objeto de acuerdo si estamos en yo(nha), tu(ma), el/ella(pa) y nosotros(sa):
+uta (con el pronombre yo) = nayan utanha  = mi casa
+uta (con el pronombre tu) =juman utama = tu casa
+uta (con el pronombre el/ella) =jupan utapa = su casa
+uta (con el pronombre nosotros) =jiwasan utasa = nuestra casa</string>
+    <string name="posesivos3">frases afirmativas:
+ para las frases afirmativas colocamos el sufijo (wa) en el objeto manteniendo la estructura de las posesivas:
+nayan utanhawa = es mi casa </string>
+    <string name="posesivos4">frases interrogativas:
+ para las frases interrogativas colocamos el sufijo (ti) en el objeto manteniendo la estructura de las posesivas:
+nayan utanhati = es mi casa? </string>
+    <string name="miselaneo1">al terminar de leer y comprender conjunto las pruebas(todas respondidas correctamente) el tema, presione el boton calificar para ir al siguiente nivel</string>
+    <string name="miselaneo2">algunos niveles no cuentan con modeulos de aprendizaje por que son temas que se deben praticar propiamente con los audios de manera personal, con el objetivo de motivar al estudiante a la autopractica y enseñanza</string>
+    <string name="prueba1">Bienvenido a la prueba de habilidades del Nivel Basico, siga las intrucciones y complete los campos, al terminar la prueba  presione en el boton finalizar para resibir su nota final.</string>
+    <string name="prueba2">Escucha con atencion los audios y coloca en el campo la traduccion en aymara:</string>
+    <string name="prueba3">Pronuncia la palabra que se encuentra en español  al idioma aymara de manera correcta, ayudate con la imagen para recordar la palabra (a diferencia de las demas pruebas esta se calificara inmediatamente con un correcto o incorrecto)</string>
+    <string name="prueba4">Lee atentamente las oraciones y traducelas al español en sus respectivos campos.</string>
+</resources>

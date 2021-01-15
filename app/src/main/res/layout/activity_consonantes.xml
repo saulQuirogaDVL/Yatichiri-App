@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicosUI.ConsonantesActivity"
+    android:background="@drawable/fonbla">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textExp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explicación"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FF9800"
+                android:textSize="36dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consonante1"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:id="@+id/imgcon1"
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/consonante1"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consonante2"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="el sonido x es como doble jota, más fuerte que en castellano"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_oracion_posi_s"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante2"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Tixi-Flaco"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ph es casi como F suave; pero debe sonar P no F:"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_phisi"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imgs"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante3"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Phisi-Gato"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2ss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consonantes3"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#FBF2A0">
+
+                <TextView
+                    android:id="@+id/textView13s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="forma correcta - jupoqo=espuma"
+                    android:textAlignment="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView3s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:text="forma incorrecta = jupuqu (pero escritura correcta)"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_jupuqu_c"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/img11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante4"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ImageButton
+                    android:id="@+id/btn_jupuqu_i"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ejemplosprac"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#FF9800"
+                android:textSize="36dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/asd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consonantes4"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/escuchar"
+                android:textAlignment="center"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:background="#FFC107"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textView1214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/consonantes5"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"/>
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Puyu"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Phuyu"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="P'uyu"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_puyu"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_phuyu"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_p_uyu"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsad11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante5"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/img2111"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante6"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img11231"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante7"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="T"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tanta"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/sda4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Thantha"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textmmm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="T'ant'a"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_tanta"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_thantha"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_t_ant_a"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsad11t"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante8"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/imgt2111"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante9"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img112t31"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonate10"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView141CH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CH"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textccc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Churu"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textcccc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chhuru"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/texcccw51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="C'huru"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_churu"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_chhuru"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_ch_uru"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsadCH11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante11"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/imCHg2111"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante12"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imCHg11231"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante13"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView14K1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="K"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texkkkew49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kanka"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textkkkw50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Khankha"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textkk51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="K'ank'a"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_kanka"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_khankha"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_k_ank_a"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsad11K"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante14"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img2K111"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante15"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img112K31"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante16"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewQ141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FBF2A0"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textqq49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Qawa"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/textqqq50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Qhawa"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/teqqiew51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q'awa"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_qawa"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_qhawa"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+                <ImageButton
+                    android:id="@+id/btn_q_awa"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgsQad11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante17"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/img21Q11"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante18"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/img11Q231"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/consonante19"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textViewQ1sa41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sonidos Alfonos"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                android:background="#FFC107"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView13ses"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Se escribe"
+                    android:textAlignment="center"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFEB3B"/>
+
+                <TextView
+                    android:id="@+id/textViiqqew3s"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="IQIQU"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/texAAtView3s"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="TUNQU"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/textVieAA"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="QHIRI"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/te12VieAA"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Se pronuncia"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFEB3B"/>
+
+                <ImageButton
+                    android:id="@+id/btn_iqiqu"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/btn_tunqu"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/btn_qhiri"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="#00000000"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/sonido"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textViedss"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="Traduccion"
+                    android:layout_marginLeft="0dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFEB3B"/>
+
+                <TextView
+                    android:id="@+id/atas"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Dios de la abundancia"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/safdnk"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="maiz"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:id="@+id/sdfad"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="fogon"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:background="#FFFFFF"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/miselaneo2"
+                android:gravity="center"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/calificar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calificar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
